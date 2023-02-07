@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Binary.cs" />
     <Compile Include="DayOfWeek.cs" />
     <Compile Include="MonthlyPayment.cs" />
     <Compile Include="Program.cs" />
