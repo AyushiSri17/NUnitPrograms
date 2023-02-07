@@ -12,7 +12,7 @@ namespace NUnitPrograms
         {
             Console.WriteLine("Welcome to NUnit program");
             Console.WriteLine("Choose the option for the program want to perform");
-            Console.WriteLine("1: Vending Machine");
+            Console.WriteLine("1: Vending Machine \n2. Day of Week");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -21,6 +21,9 @@ namespace NUnitPrograms
                     Console.WriteLine("Enter the amount you want to withdraw");
                     int amount=Convert.ToInt32(Console.ReadLine());
                     machine.CountCurrency(amount);
+                    break;
+                case 2:
+                    DayOfWeek.GetDayOfWeek();
                     break;
                 default:
                     Console.WriteLine("Choose the correct option");
