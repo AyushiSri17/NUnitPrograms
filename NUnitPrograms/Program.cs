@@ -12,7 +12,7 @@ namespace NUnitPrograms
         {
             Console.WriteLine("Welcome to NUnit program");
             Console.WriteLine("Choose the option for the program want to perform");
-            Console.WriteLine("1: Vending Machine \n2. Day of Week");
+            Console.WriteLine("1: Vending Machine \n2. Day of Week \n3. Temperature Conversion");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -24,6 +24,9 @@ namespace NUnitPrograms
                     break;
                 case 2:
                     DayOfWeek.GetDayOfWeek();
+                    break;
+                case 3:
+                    TemperatureConversion.Conversion();
                     break;
                 default:
                     Console.WriteLine("Choose the correct option");
