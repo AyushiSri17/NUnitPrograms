@@ -49,6 +49,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SquareRoot.cs" />
+    <Compile Include="SwapNibbles.cs" />
     <Compile Include="TemperatureConversion.cs" />
     <Compile Include="VendingMachine.cs" />
   </ItemGroup>

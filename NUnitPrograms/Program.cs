@@ -12,7 +12,7 @@ namespace NUnitPrograms
         {
             Console.WriteLine("Welcome to NUnit program");
             Console.WriteLine("Choose the option for the program want to perform");
-            Console.WriteLine("1: Vending Machine \n2. Day of Week \n3. Temperature Conversion \n4. Monthly Payment \n5. SquareRoot \n6. Decimal to Binary Conversion");
+            Console.WriteLine("1: Vending Machine \n2. Day of Week \n3. Temperature Conversion \n4. Monthly Payment \n5. SquareRoot \n6. Decimal to Binary Conversion \n7. Swap Nibbles");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -36,6 +36,9 @@ namespace NUnitPrograms
                     break;
                 case 6:
                     Binary.ToBinary();
+                    break;
+                case 7:
+                    SwapNibbles.Binary();
                     break;
                 default:
                     Console.WriteLine("Choose the correct option");
