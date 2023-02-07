@@ -12,7 +12,7 @@ namespace NUnitPrograms
         {
             Console.WriteLine("Welcome to NUnit program");
             Console.WriteLine("Choose the option for the program want to perform");
-            Console.WriteLine("1: Vending Machine \n2. Day of Week \n3. Temperature Conversion \n4. Monthly Payment");
+            Console.WriteLine("1: Vending Machine \n2. Day of Week \n3. Temperature Conversion \n4. Monthly Payment \n5. SquareRoot");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -30,6 +30,9 @@ namespace NUnitPrograms
                     break;
                 case 4:
                     MonthlyPayment.CalculateMonthlyPayment();
+                    break;
+                case 5:
+                    SquareRoot.SquareRootUsingNewtonMethod();
                     break;
                 default:
                     Console.WriteLine("Choose the correct option");
